@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d0c">
+  <meta name="robots" content="noindex,follow">
+  <meta name="description" content="Votre demande a bien été transmise à SiteQuiVend.">
+  <meta property="og:title" content="Demande envoyée | SiteQuiVend">
+  <meta property="og:description" content="Merci pour votre brief, l’équipe SiteQuiVend vous répondra par e-mail.">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script>
+    try {
+      const requestedLanguage = new URLSearchParams(location.search).get('lang');
+      const savedLanguage = localStorage.getItem('sqv-language');
+      const initialLanguage = requestedLanguage === 'en' || requestedLanguage === 'fr' ? requestedLanguage : (savedLanguage === 'en' ? 'en' : 'fr');
+      document.documentElement.lang = initialLanguage;
+      document.documentElement.dataset.lang = initialLanguage;
+    } catch (_) { document.documentElement.lang = 'fr'; }
+  </script>
+  <script src="/site.js" defer></script>
+  <title>Demande envoyée | SiteQuiVend</title>
+</head>
+<body class="document-page" data-page="thanks">
+  <a class="skip-link" href="#main" data-i18n="skipLink">Aller au contenu</a>
+  <header class="site-header" id="top">
+    <div class="site-header__inner shell">
+      <a class="brand" href="/" aria-label="SiteQuiVend — accueil">
+        <span class="brand__mark" aria-hidden="true"><svg viewBox="0 0 42 42" fill="none"><path d="M8.5 27.8 19.8 8.5l3.8 6.4-8.1 13.8H8.5Z" fill="currentColor"/><path d="M20.7 33.5 31.9 14l3.7 6.6-7.3 12.9h-7.6Z" fill="currentColor" opacity=".58"/><circle cx="32.7" cy="8.9" r="3.1" fill="#D6F36A"/></svg></span>
+        <span class="brand__wordmark">SiteQuiVend<span class="brand__period">.</span><small>AI CREATIVE STUDIO</small></span>
+      </a>
+      <nav class="main-nav" id="primary-navigation" aria-label="Navigation principale" data-i18n-aria="navigationLabel"><a href="/#work" data-i18n="nav.work">Réalisations</a><a href="/#services" data-i18n="nav.services">Services</a><a href="/#process" data-i18n="nav.process">Méthode</a><a href="/#offers" data-i18n="nav.offers">Offres</a></nav>
+      <div class="header-actions"><button class="language-switch" type="button" data-language-toggle aria-label="Passer en anglais" data-i18n-aria="languageSwitchLabel"><span class="language-switch__globe" aria-hidden="true">◎</span><span data-language-next>EN</span></button><a class="button button--small button--outline header-cta" href="/" data-i18n="thanks.home">Retourner au site</a><button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" data-menu-toggle aria-label="Ouvrir le menu" data-i18n-aria="menu.open"><span></span><span></span></button></div>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <section class="thank-you" aria-labelledby="thanks-title">
+      <span class="thank-you__mark" aria-hidden="true">✓</span>
+      <p class="eyebrow"><span class="eyebrow__dot"></span><span data-i18n="thanks.eyebrow">BRIEF TRANSMIS</span></p>
+      <h1 id="thanks-title" data-i18n="thanks.heading">Votre demande<br><span class="heading-serif">est bien transmise.</span></h1>
+      <p data-i18n="thanks.text">Merci pour votre brief. L’équipe SiteQuiVend pourra l’examiner et vous répondre à l’adresse indiquée. Si des photos ou des vidéos sont nécessaires, nous vous préciserons la meilleure façon de les partager.</p>
+      <div class="thank-you__actions"><a class="button button--accent" href="/" data-i18n="thanks.home">Retourner au site</a><a class="button button--outline" href="mailto:simon@sitequivend.fr" data-i18n="thanks.email">Écrire un e-mail</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="shell"><div class="site-footer__bottom"><span>© <span data-current-year>2026</span> SiteQuiVend</span><div class="footer-links"><a href="/mentions-legales.html" data-i18n="footer.legal">Mentions légales</a><a href="/confidentialite.html" data-i18n="footer.privacy">Confidentialité</a><a href="mailto:simon@sitequivend.fr">simon@sitequivend.fr</a></div><span data-i18n="footer.credit">Des créations, pas des promesses de performance.</span></div></div></footer>
+</body>
+</html>
