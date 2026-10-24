@@ -7,6 +7,26 @@
 
   const translations = {
     fr: {
+      "portfolio.watch": "Voir le film",
+      "portfolio.pause": "Pause des aperçus",
+      "portfolio.resume": "Reprendre les aperçus",
+      "portfolio.hint": "Un aperçu en mouvement. Le film et son univers sonore au clic.",
+      "portfolio.galleryLabel": "Les trois films du studio",
+      "portfolio.swipe": "Faites défiler pour découvrir les trois films.",
+      "portfolio.cavalLabel": "Voir le film CAVAL, 15 secondes",
+      "portfolio.pomponneLabel": "Voir le film Pomponne, 15 secondes",
+      "portfolio.atmaLabel": "Voir le film Atma, 15 secondes",
+      "portfolio.cavalCategory": "Mode et accessoires",
+      "portfolio.pomponneCategory": "Beauté et cosmétique",
+      "portfolio.atmaCategory": "Art de vivre",
+      "portfolio.showreel": "Découvrir aussi le film studio de 30 s",
+      "portfolio.credits": "Crédits et références",
+      "portfolio.rights": "Les marques et les visuels produit appartiennent à leurs titulaires respectifs. Aucune affiliation ni approbation des marques n'est revendiquée. Les personnages sont fictifs.",
+      "portfolio.music": "Musique par Scott Buckley",
+      "portfolio.musicEdits": "Extraits, fondus et mixage adaptés aux films.",
+      "portfolio.foley": "Bruitages enregistrés",
+      "portfolio.close": "Fermer le film",
+      "portfolio.dialogNote": "Concept de studio indépendant. À découvrir avec le son.",
       pageTitle: 'AI UGC & Creative Video Ads for E-commerce | SiteQuiVend',
       pageDescription: 'Des publicités vidéo e-commerce prêtes à tester : AI UGC, films produit cinématiques et variations créatives, conçus par SiteQuiVend.',
       'legal.description': 'Mentions légales de SiteQuiVend : informations éditeur à confirmer, hébergement Netlify et médias intégrés.',
@@ -25,15 +45,15 @@
       'hero.eyebrow': 'STUDIO CRÉATIF · VIDÉO E-COMMERCE',
       'hero.lead': 'Des publicités vidéo originales, pensées pour les marques e-commerce — sans tournage traditionnel. À partir de votre fiche produit, de vos photos ou de vos vidéos.',
       'hero.primary': 'Recevoir mes 3 premières pubs',
-      'hero.secondary': 'Voir le film studio - 30 s',
+      "hero.secondary": "Découvrir les films",
       'hero.footnote': 'Direction créative humaine · production assistée par IA',
       'hero.sideLabel': 'CRÉATION · PAS PROMESSE',
       'hero.specOne': 'formats courts',
       'hero.specTwo': 'vertical ready',
       'hero.imageCaption': 'Visuel d’ambiance · pas une réalisation client',
-      "work.eyebrow": "LE FILM STUDIO",
+      "work.eyebrow": "Le portfolio",
       "work.title": "Notre savoir-faire.<br><span class=\"heading-serif\">En mouvement.</span>",
-      "work.intro": "Six univers, une même attention au détail. Découvrez comment nous mettons les matières, les gestes et les produits en scène.",
+      "work.intro": "Trois produits, trois directions créatives. De l'attitude, du geste et de la matière.",
       "work.category": "SHOWREEL STUDIO / 30 S / 9:16",
       "work.filmTitle": "Made to be desired.",
       "work.description": "Une goutte de sérum, un café qui coule, le grain du cuir. Lumière, mouvement et sound design donnent envie de regarder le produit de plus près.",
@@ -41,7 +61,7 @@
       "work.sound": "À découvrir avec le son. Lecture et plein écran via les commandes du lecteur.",
       "work.videoLabel": "Showreel SiteQuiVend : Made to be desired, 30 secondes",
       "work.fallback": "Ouvrir le film en MP4",
-      "work.note": "Création illustrative du studio, assistée par IA à partir de photographies sous licence. Les produits présentés ne sont pas des commandes clients.",
+      "work.note": "Concepts indépendants, assistés par IA. Ces films ne sont pas des commandes des marques présentées.",
       "work.link": "Imaginons le film de votre produit",
       'services.eyebrow': 'SERVICES',
       'services.title': 'Plus que de l’IA.<br><span class="heading-serif">Des pubs prêtes à tester.</span>',
@@ -164,7 +184,7 @@
       'legal.hostText': 'Hébergement et traitement du formulaire prévus sur Netlify : Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, États-Unis. Contact publié par l’hébergeur :',
       'legal.hostLink': 'Conditions d’utilisation de Netlify',
       'legal.ipTitle': 'Propriété intellectuelle et médias',
-      "legal.ipText": "Les textes et éléments graphiques appartiennent à leurs auteurs respectifs. Le visuel du hero est généré par IA. Le showreel \"Made to be desired\" est une création illustrative du studio, assistée par IA à partir de photographies Pexels sous licence. Il ne représente pas des commandes clients. Les sources et licences sont conservées par le studio.",
+      "legal.ipText": "Les textes, marques et visuels appartiennent à leurs titulaires respectifs. Le visuel du hero est généré par IA. Le showreel Made to be desired utilise des photographies Pexels sous licence. Les films CAVAL, Pomponne et Atma sont des concepts indépendants assistés par IA à partir de références produit ; ils ne sont ni commandés ni approuvés par ces marques. Les personnages sont fictifs. Les références de marque ne sont pas présentées comme libres de droits. Les crédits musicaux et sonores figurent dans la section portfolio.",
       'legal.dataTitle': 'Données personnelles',
       'legal.dataText': 'Les données envoyées via le formulaire servent à répondre à votre demande et à préparer une proposition. Aucun pixel publicitaire ni outil d’analytics n’est intégré dans cette version. Consultez la politique de confidentialité pour les détails.',
       'legal.dataLink': 'Lire la politique de confidentialité',
@@ -196,6 +216,26 @@
       'thanks.email': 'Écrire un e-mail'
     },
     en: {
+      "portfolio.watch": "Watch the film",
+      "portfolio.pause": "Pause previews",
+      "portfolio.resume": "Resume previews",
+      "portfolio.hint": "A moving preview. Click for the full film and its soundscape.",
+      "portfolio.galleryLabel": "Three studio films",
+      "portfolio.swipe": "Scroll across to discover all three films.",
+      "portfolio.cavalLabel": "Watch the CAVAL film, 15 seconds",
+      "portfolio.pomponneLabel": "Watch the Pomponne film, 15 seconds",
+      "portfolio.atmaLabel": "Watch the Atma film, 15 seconds",
+      "portfolio.cavalCategory": "Fashion and accessories",
+      "portfolio.pomponneCategory": "Beauty and cosmetics",
+      "portfolio.atmaCategory": "Home and living",
+      "portfolio.showreel": "Also discover the 30-second studio film",
+      "portfolio.credits": "Credits and references",
+      "portfolio.rights": "Brands and product images belong to their respective owners. No brand affiliation or endorsement is claimed. Characters are fictional.",
+      "portfolio.music": "Music by Scott Buckley",
+      "portfolio.musicEdits": "Excerpts, fades and mixes adapted for the films.",
+      "portfolio.foley": "Recorded sound effects",
+      "portfolio.close": "Close the film",
+      "portfolio.dialogNote": "Independent studio concept. Best with sound.",
       pageTitle: 'AI UGC & Creative Video Ads for E-commerce | SiteQuiVend',
       pageDescription: 'E-commerce video ads built to test: AI UGC, cinematic product films and creative variations, made by SiteQuiVend.',
       'legal.description': 'SiteQuiVend legal notice: publisher details to confirm, Netlify hosting and media information.',
@@ -214,15 +254,15 @@
       'hero.eyebrow': 'CREATIVE STUDIO · E-COMMERCE VIDEO',
       'hero.lead': 'Original short-form video ads for e-commerce brands — without a traditional shoot. Built from your product page, photos or footage.',
       'hero.primary': 'Get Your First 3 Ads',
-      'hero.secondary': 'Watch the studio film - 30 sec',
+      "hero.secondary": "Discover the films",
       'hero.footnote': 'Human creative direction · AI-assisted production',
       'hero.sideLabel': 'CREATIVE · NOT A CLAIM',
       'hero.specOne': 'short-form ads',
       'hero.specTwo': 'vertical ready',
       'hero.imageCaption': 'Art direction image · not client work',
-      "work.eyebrow": "THE STUDIO FILM",
+      "work.eyebrow": "The portfolio",
       "work.title": "Our craft.<br><span class=\"heading-serif\">In motion.</span>",
-      "work.intro": "Six worlds, the same eye for detail. Discover how we bring materials, gestures and products into focus.",
+      "work.intro": "Three products, three creative directions. Attitude, gestures and materials in motion.",
       "work.category": "STUDIO SHOWREEL / 30 SEC / 9:16",
       "work.filmTitle": "Made to be desired.",
       "work.description": "A drop of serum, a pouring coffee, the grain of leather. Light, movement and sound design invite a closer look at the product.",
@@ -230,7 +270,7 @@
       "work.sound": "Best with sound. Use the player controls for playback and full screen.",
       "work.videoLabel": "SiteQuiVend showreel: Made to be desired, 30 seconds",
       "work.fallback": "Open the MP4 film",
-      "work.note": "An illustrative studio creation, made with AI from licensed photographs. The products shown are not client commissions.",
+      "work.note": "Independent concepts made with AI. These films were not commissioned by the featured brands.",
       "work.link": "Let’s create your product film",
       'services.eyebrow': 'SERVICES',
       'services.title': 'More than AI.<br><span class="heading-serif">Ads made to be tested.</span>',
@@ -353,7 +393,7 @@
       'legal.hostText': 'Hosting and form processing are intended to run on Netlify: Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, United States. Contact published by the host:',
       'legal.hostLink': 'Netlify Terms of Use',
       'legal.ipTitle': 'Intellectual property and media',
-      "legal.ipText": "Text and graphics belong to their respective authors. The hero image is AI-generated. The \"Made to be desired\" showreel is an illustrative studio creation, made with AI from licensed Pexels photographs. It does not represent client commissions. The studio retains the sources and licences.",
+      "legal.ipText": "Texts, brands and images belong to their respective owners. The hero image is AI generated. The Made to be desired showreel uses licensed Pexels photographs. The CAVAL, Pomponne and Atma films are independent concepts made with AI from product references; they were neither commissioned nor approved by these brands. Characters are fictional. Brand references are not presented as royalty free. Music and sound credits are available in the portfolio section.",
       'legal.dataTitle': 'Personal data',
       'legal.dataText': 'Information submitted through the form is used to respond to your enquiry and prepare a proposal. This version includes no advertising pixels or analytics tools. See the privacy notice for details.',
       'legal.dataLink': 'Read the privacy notice',
@@ -519,6 +559,84 @@
         const label = submitButton.querySelector('[data-i18n="form.submit"]');
         if (label) label.textContent = translations[locale]['form.sending'];
       }
+    });
+  }
+
+
+  const filmDialog = document.querySelector('#film-dialog');
+  if (filmDialog && typeof filmDialog.showModal === 'function') {
+    const player = filmDialog.querySelector('[data-film-player]');
+    const title = filmDialog.querySelector('#film-dialog-title');
+    const download = filmDialog.querySelector('[data-film-download]');
+    const previews = [...document.querySelectorAll('[data-preview]')];
+    const motionButton = document.querySelector('[data-preview-toggle]');
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const saveData = Boolean(navigator.connection?.saveData);
+    const visiblePreviews = new Set();
+    let previewsPaused = false;
+    let returnFocus;
+    const syncPreviews = () => {
+      const allowed = !previewsPaused && !motionPreference.matches && !saveData && !document.hidden && !filmDialog.open;
+      previews.forEach((video) => {
+        if (allowed && visiblePreviews.has(video)) {
+          if (!video.hasAttribute('src')) video.src = video.dataset.previewSrc;
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+    };
+    if ('IntersectionObserver' in window) {
+      const previewObserver = new IntersectionObserver((entries) => {
+        entries.forEach(({ target, isIntersecting }) => {
+          if (isIntersecting) visiblePreviews.add(target);
+          else visiblePreviews.delete(target);
+        });
+        syncPreviews();
+      }, { threshold: .25 });
+      previews.forEach((video) => previewObserver.observe(video));
+      motionButton.hidden = motionPreference.matches || saveData;
+    }
+    motionButton.addEventListener('click', () => {
+      previewsPaused = !previewsPaused;
+      motionButton.setAttribute('aria-pressed', String(previewsPaused));
+      motionButton.dataset.i18n = previewsPaused ? 'portfolio.resume' : 'portfolio.pause';
+      motionButton.textContent = translations[locale][motionButton.dataset.i18n];
+      syncPreviews();
+    });
+    motionPreference.addEventListener('change', () => {
+      motionButton.hidden = motionPreference.matches || saveData;
+      syncPreviews();
+    });
+    document.addEventListener('visibilitychange', syncPreviews);
+    document.querySelectorAll('[data-film]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        returnFocus = link;
+        title.textContent = link.dataset.filmTitle;
+        download.href = link.href;
+        player.poster = link.querySelector('[data-preview]')?.poster || '/assets/work/SiteQuiVend-Showreel-Cover.webp';
+        player.src = link.href;
+        player.load();
+        filmDialog.showModal();
+        document.body.classList.add('film-open');
+        syncPreviews();
+        player.play().catch(() => {});
+      });
+    });
+    filmDialog.querySelector('[data-film-close]').addEventListener('click', () => filmDialog.close());
+    filmDialog.addEventListener('click', (event) => {
+      const bounds = filmDialog.getBoundingClientRect();
+      if (event.target === filmDialog && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) filmDialog.close();
+    });
+    filmDialog.addEventListener('close', () => {
+      player.pause();
+      player.removeAttribute('src');
+      player.load();
+      document.body.classList.remove('film-open');
+      returnFocus?.focus({ preventScroll: true });
+      syncPreviews();
     });
   }
 
