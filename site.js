@@ -100,7 +100,9 @@
       'offers.eyebrow': 'OFFRES',
       'offers.title': 'Un premier test clair.<br><span class="heading-serif">Sans promesse gonflée.</span>',
       'offers.intro': 'Testez trois directions créatives différentes avant de décider de la suite.',
-      'offers.starterTag': 'POUR UN PREMIER TEST',
+      'offers.starterTag': 'OFFRE DE LANCEMENT -50 %',
+      'offers.starterPrice': '149,50<span> €</span>',
+      'offers.originalPrice': 'Au lieu de <s>299 €</s>',
       'offers.starterTitle': 'Starter Creative Test',
       'offers.oneTime': 'pour un test créatif',
       'offers.starterDesc': 'Un pack de création publicitaire, hors budget média et achat d’espace.',
@@ -157,7 +159,7 @@
       'form.platformUnsure': 'Je ne sais pas encore',
       'form.budget': 'Budget indicatif',
       'form.budgetPlaceholder': 'Sélectionner une fourchette',
-      'form.budgetStarter': '299 € — Starter Creative Test',
+      'form.budgetStarter': '149,50 € - Starter Creative Test (-50 %)',
       'form.budgetRange1': '300–750 €',
       'form.budgetRange2': '751–1 500 €',
       'form.budgetRange3': 'Plus de 1 500 €',
@@ -313,7 +315,9 @@
       'offers.eyebrow': 'OFFERS',
       'offers.title': 'A clear first test.<br><span class="heading-serif">No inflated promises.</span>',
       'offers.intro': 'Test three distinct creative directions before deciding what comes next.',
-      'offers.starterTag': 'A FIRST CREATIVE TEST',
+      'offers.starterTag': 'LAUNCH OFFER -50%',
+      'offers.starterPrice': '149.50<span> €</span>',
+      'offers.originalPrice': 'Instead of <s>€299</s>',
       'offers.starterTitle': 'Starter Creative Test',
       'offers.oneTime': 'for one creative test',
       'offers.starterDesc': 'A creative production package, excluding media spend and media buying.',
@@ -370,7 +374,7 @@
       'form.platformUnsure': 'Not sure yet',
       'form.budget': 'Indicative budget',
       'form.budgetPlaceholder': 'Choose a range',
-      'form.budgetStarter': '€299 — Starter Creative Test',
+      'form.budgetStarter': '€149.50 - Starter Creative Test (-50%)',
       'form.budgetRange1': '€300–€750',
       'form.budgetRange2': '€751–€1,500',
       'form.budgetRange3': 'More than €1,500',
@@ -549,8 +553,8 @@
     document.querySelectorAll('[data-offer]').forEach((link) => {
       link.addEventListener('click', () => {
         const offer = link.dataset.offer;
-        if (offerInput) offerInput.value = offer === 'starter' ? 'Starter Creative Test — 299 EUR' : 'Creative Packs — custom quote';
-        if (budgetSelect) budgetSelect.value = offer === 'starter' ? '299 EUR - Starter Creative Test' : 'Not sure yet';
+        if (offerInput) offerInput.value = offer === 'starter' ? 'Starter Creative Test - 149.50 EUR - lancement -50%' : 'Creative Packs — custom quote';
+        if (budgetSelect) budgetSelect.value = offer === 'starter' ? '149.50 EUR - Starter Creative Test' : 'Not sure yet';
       });
     });
 

@@ -213,6 +213,7 @@ button { color: inherit; }
 .offer-card__price strong span { color: var(--accent); font-size: 25px; }
 .offer-card__price > span { color: #8e958a; font-size: 9px; }
 .offer-card__price--custom strong { color: var(--accent); font-size: 27px; letter-spacing: -.04em; }
+.offer-card__original-price { margin: -5px 0 0; color: #a5aa9f; font-size: 12px; line-height: 1.5; }
 .offer-card__desc { min-height: 45px; margin: 17px 0 19px; color: #a5aa9f; font-size: 10px; line-height: 1.75; }
 .offer-list { display: grid; gap: 12px; margin: 0 0 28px; padding: 20px 0 25px; border-top: 1px solid var(--line); list-style: none; }
 .offer-list li { position: relative; padding-left: 20px; color: #d2d5ca; font-size: 10px; }
