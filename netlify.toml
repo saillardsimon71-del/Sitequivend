@@ -1,0 +1,35 @@
+[build]
+  publish = "."
+
+# Netlify Forms detects the static `creative-brief` form in index.html.
+# Keep form detection enabled in the Netlify site settings after the first deployment.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/legal"
+  to = "/mentions-legales.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/privacy"
+  to = "/confidentialite.html"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/thanks"
+  to = "/merci.html"
+  status = 301
+  force = false
