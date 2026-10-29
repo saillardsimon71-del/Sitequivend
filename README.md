@@ -7,7 +7,7 @@ Site statique bilingue, sans build. Le ZIP place `index.html` à sa racine et se
 - Décompresser `SiteQuiVend-Netlify.zip`, déposer son contenu sur Netlify, puis activer **Netlify Forms** après le premier déploiement. Le formulaire `creative-brief` utilise un honeypot et confirme l’envoi sur `merci.html`.
 - Tarifs et textes : `index.html` + traductions dans `site.js`.
 - Contact : rechercher `simon@sitequivend.fr` dans les fichiers HTML. Aucun paiement n’est actif. Après vérification d’un vrai lien Stripe, le renseigner dans `VERIFIED_STRIPE_CHECKOUT_URL` en haut de `site.js`.
-- Portfolio : trois films de 15 s dans `assets/work/portfolio/`. Aperçus muets de 5 s, chargés uniquement à l'écran, avec pause globale et respect du mouvement réduit/économie de données. Lecture complète avec son dans une fenêtre au clic. Le showreel de 30 s reste accessible par un lien. Textes FR/EN et crédits dans `index.html` et `site.js`.
+- Portfolio : huit films de 13 à 21 s dans `assets/work/portfolio/`. Aperçus muets de 5 s, chargés uniquement à l'écran, avec pause globale et respect du mouvement réduit/économie de données. Lecture complète avec son dans une fenêtre au clic. Le showreel de 30 s reste accessible par un lien. Textes FR/EN et crédits dans `index.html` et `site.js`.
 
 ## À valider avant publication
 
